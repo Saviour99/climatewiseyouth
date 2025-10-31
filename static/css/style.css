@@ -393,9 +393,18 @@ body {
         font-size: 2rem;
     }
     .brandname1, .brandname2 {
-        font-size: ;
+        font-size: 0.9rem;
     }
     .nav-logo {
-        width: ;
+        width: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .brandname1, .brandname2 {
+        font-size: 0.85rem;
+    }
+    .nav-logo {
+        width: 35px;
     }
 }
