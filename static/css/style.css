@@ -393,9 +393,9 @@ body {
         font-size: 2rem;
     }
     .brandname1, .brandname2 {
-        font-size: 30px;
+        font-size: 300px;
     }
     .nav-logo {
-        width: 30px;
+        width: 30;
     }
 }
