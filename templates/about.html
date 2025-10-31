@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimateWiseYouth - Empowering Youth Climate Action</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" onclick="showPage('home')">
+                <i class="fas fa-leaf"></i> ClimateWiseYouth
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" onclick="showPage('home')">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showPage('about')">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showPage('resources')">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showPage('events')">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showPage('community')">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showPage('contact')">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!--================================================================================================================-->
+    
+    <!-- ABOUT PAGE -->
+    <div id="about" class="page-content">
+        <section class="section" style="background: var(--light-bg); padding-top: 50px;">
+            <div class="container">
+                <h2 class="section-title">About ClimateWiseYouth</h2>
+                <div class="row align-items-center mt-5">
+                    <div class="col-lg-6 mb-4">
+                        <h3 style="color: var(--dark-green); font-weight: 600;">Our Mission</h3>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">ClimateWiseYouth is a global platform dedicated to empowering young people to take meaningful action against climate change. We believe that youth are not just the leaders of tomorrow—they are the changemakers of today.</p>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">Founded in 2020, we've grown into a vibrant community of passionate young activists, educators, and innovators working together to create a sustainable future for all.</p>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/dcHY4ess4J4" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Our Values</h2>
+                <div class="row mt-5">
+                    <div class="col-md-6 mb-4">
+                        <div class="feature-card">
+                            <h4 style="color: var(--primary-color);"><i class="fas fa-lightbulb"></i> Innovation</h4>
+                            <p>We embrace creative solutions and cutting-edge approaches to tackle climate challenges.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="feature-card">
+                            <h4 style="color: var(--primary-color);"><i class="fas fa-hands-helping"></i> Collaboration</h4>
+                            <p>We believe in the power of working together across borders, cultures, and communities.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="feature-card">
+                            <h4 style="color: var(--primary-color);"><i class="fas fa-balance-scale"></i> Justice</h4>
+                            <p>We advocate for climate justice and equity, ensuring vulnerable communities are heard.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="feature-card">
+                            <h4 style="color: var(--primary-color);"><i class="fas fa-rocket"></i> Action</h4>
+                            <p>We turn awareness into action through concrete initiatives and measurable impact.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background: var(--light-bg);">
+            <div class="container">
+                <h2 class="section-title">Meet Our Team</h2>
+                <p class="section-subtitle">Passionate individuals driving change</p>
+                <div class="row">
+                    <div class="col-md-3 col-6 mb-4 text-center">
+                        <div class="feature-card">
+                            <div style="width: 100px; height: 100px; background: var(--primary-color); border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; color: white;">👩</div>
+                            <h5>Sarah Johnson</h5>
+                            <p class="text-muted">Founder & CEO</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4 text-center">
+                        <div class="feature-card">
+                            <div style="width: 100px; height: 100px; background: var(--primary-color); border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; color: white;">👨</div>
+                            <h5>Michael Chen</h5>
+                            <p class="text-muted">Program Director</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4 text-center">
+                        <div class="feature-card">
+                            <div style="width: 100px; height: 100px; background: var(--primary-color); border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; color: white;">👩</div>
+                            <h5>Aisha Patel</h5>
+                            <p class="text-muted">Community Lead</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6 mb-4 text-center">
+                        <div class="feature-card">
+                            <div style="width: 100px; height: 100px; background: var(--primary-color); border-radius: 50%; margin: 0 auto 15px; display: flex; align-items: center; justify-content: center; font-size: 2.5rem; color: white;">👨</div>
+                            <h5>Carlos Rodriguez</h5>
+                            <p class="text-muted">Tech Coordinator</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!--================================================================================================================-->
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-leaf"></i> ClimateWiseYouth</h5>
+                    <p>Empowering the next generation of climate leaders to create a sustainable future for all.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" onclick="showPage('home')">Home</a></li>
+                        <li class="mb-2"><a href="#" onclick="showPage('about')">About Us</a></li>
+                        <li class="mb-2"><a href="#" onclick="showPage('resources')">Resources</a></li>
+                        <li class="mb-2"><a href="#" onclick="showPage('events')">Events</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Get Involved</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" onclick="showPage('community')">Join Community</a></li>
+                        <li class="mb-2"><a href="#">Volunteer</a></li>
+                        <li class="mb-2"><a href="#">Donate</a></li>
+                        <li class="mb-2"><a href="#">Partner With Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Stay updated with climate news</p>
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Your email" style="border-radius: 25px;">
+                        <button class="btn btn-light" style="border-radius: 25px;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <hr style="border-color: rgba(255,255,255,0.1); margin: 30px 0;">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3">
+                    <p class="mb-0">&copy; 2025 ClimateWiseYouth. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="me-3">Privacy Policy</a>
+                    <a href="#" class="me-3">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/js/index.js"></script>
+    </body>
+</html>

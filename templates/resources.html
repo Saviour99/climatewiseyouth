@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClimateWiseYouth - Empowering Youth Climate Action</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" onclick="showPage('home')">
+                <i class="fas fa-leaf"></i> ClimateWiseYouth
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" onclick="showPage('home')">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showPage('about')">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showPage('resources')">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showPage('events')">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showPage('community')">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="showPage('contact')">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!--================================================================================================================-->
+    
+    <!-- RESOURCES PAGE -->
+    <div id="resources" class="page-content">
+        <section class="section" style="background: var(--light-bg); padding-top: 50px;">
+            <div class="container">
+                <h2 class="section-title">Climate Resources</h2>
+                <p class="section-subtitle">Educational materials to deepen your climate knowledge</p>
+
+                <div class="row mt-5">
+                    <div class="col-lg-6 mb-4">
+                        <h4 style="color: var(--dark-green); margin-bottom: 20px;"><i class="fas fa-video"></i> Video Tutorials</h4>
+                        <div class="video-container mb-3">
+                            <iframe src="https://www.youtube.com/embed/EtW2rrLHs08" allowfullscreen></iframe>
+                        </div>
+                        <p class="text-muted">What is Climate Change? - Kurzgesagt</p>
+                    </div>
+                    <div class="col-lg-6 mb-4">
+                        <h4 style="color: var(--dark-green); margin-bottom: 20px;"><i class="fas fa-video"></i> Action Guide</h4>
+                        <div class="video-container mb-3">
+                            <iframe src="https://www.youtube.com/embed/ipVxxxqwBQw" allowfullscreen></iframe>
+                        </div>
+                        <p class="text-muted">How to Take Climate Action - TED-Ed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <h3 style="color: var(--dark-green); margin-bottom: 30px;"><i class="fas fa-book"></i> Learning Materials</h3>
+                <div class="row">
+                    <div class="col-lg-6 mb-3">
+                        <div class="resource-card">
+                            <h5><i class="fas fa-file-pdf text-danger"></i> Climate Science Basics</h5>
+                            <p>Comprehensive guide to understanding climate science, greenhouse gases, and global warming.</p>
+                            <a href="#" class="btn btn-sm btn-outline-success">Download PDF</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div class="resource-card">
+                            <h5><i class="fas fa-file-pdf text-danger"></i> Renewable Energy Guide</h5>
+                            <p>Learn about solar, wind, and other renewable energy sources and their role in climate action.</p>
+                            <a href="#" class="btn btn-sm btn-outline-success">Download PDF</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div class="resource-card">
+                            <h5><i class="fas fa-file-pdf text-danger"></i> Sustainable Living Handbook</h5>
+                            <p>Practical tips for reducing your carbon footprint in daily life.</p>
+                            <a href="#" class="btn btn-sm btn-outline-success">Download PDF</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mb-3">
+                        <div class="resource-card">
+                            <h5><i class="fas fa-file-pdf text-danger"></i> Youth Activism Toolkit</h5>
+                            <p>Step-by-step guide to organizing climate strikes and campaigns in your community.</p>
+                            <a href="#" class="btn btn-sm btn-outline-success">Download PDF</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" style="background: var(--light-bg);">
+            <div class="container">
+                <h3 style="color: var(--dark-green); margin-bottom: 30px;"><i class="fas fa-link"></i> Useful Links</h3>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <div class="feature-card">
+                            <h5>IPCC Reports</h5>
+                            <p>Access the latest scientific reports on climate change from the Intergovernmental Panel on Climate Change.</p>
+                            <a href="#" class="text-success">Visit Website <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="feature-card">
+                            <h5>NASA Climate</h5>
+                            <p>Explore NASA's climate data, visualizations, and educational resources.</p>
+                            <a href="#" class="text-success">Visit Website <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="feature-card">
+                            <h5>UN Climate Action</h5>
+                            <p>Learn about global climate initiatives and how you can contribute.</p>
+                            <a href="#" class="text-success">Visit Website <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <div class="feature-card">
+                            <h5>Youth Climate Organizations</h5>
+                            <p>Connect with other youth-led climate movements worldwide.</p>
+                            <a href="#" class="text-success">Visit Website <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--================================================================================================================-->
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5><i class="fas fa-leaf"></i> ClimateWiseYouth</h5>
+                    <p>Empowering the next generation of climate leaders to create a sustainable future for all.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" onclick="showPage('home')">Home</a></li>
+                        <li class="mb-2"><a href="#" onclick="showPage('about')">About Us</a></li>
+                        <li class="mb-2"><a href="#" onclick="showPage('resources')">Resources</a></li>
+                        <li class="mb-2"><a href="#" onclick="showPage('events')">Events</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Get Involved</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" onclick="showPage('community')">Join Community</a></li>
+                        <li class="mb-2"><a href="#">Volunteer</a></li>
+                        <li class="mb-2"><a href="#">Donate</a></li>
+                        <li class="mb-2"><a href="#">Partner With Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Newsletter</h5>
+                    <p>Stay updated with climate news</p>
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Your email" style="border-radius: 25px;">
+                        <button class="btn btn-light" style="border-radius: 25px;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <hr style="border-color: rgba(255,255,255,0.1); margin: 30px 0;">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3">
+                    <p class="mb-0">&copy; 2025 ClimateWiseYouth. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <a href="#" class="me-3">Privacy Policy</a>
+                    <a href="#" class="me-3">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/js/index.js"></script>
+    </body>
+</html>
